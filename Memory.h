@@ -1,7 +1,7 @@
 #pragma once
 #include "LIST.h"
 #include "Node.h"
-#define MAXHEADS 3
+#define MAXHEADS 11
 #define MAXNODES 15
 
 void memoryInit();

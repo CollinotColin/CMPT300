@@ -13,8 +13,8 @@ LIST * ListCreate()
 		freeHead(list);
 		return 0;
 	}
-	list->first->next = list->last; //超级头和超级 尾相接
-	list->last->prev = list->first; //超级头和超级尾巴，2个地址不一样的nodes
+	list->first->next = list->last; //头尾相接
+	list->last->prev = list->first; 
 	list->count = 0;
 	return list;
 }
